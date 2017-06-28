@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MainApp.Admin" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAQAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command\Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.UpdateOffCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command\iCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MainApp.UpdateOnCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command\iCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MainApp.AccountDecorator" Collapsed="true">
+    <Position X="3.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Decorator\AccountDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.USD_Account_Decorator" Collapsed="true">
+    <Position X="5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\AccountDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.UAH_Account_Decorator" Collapsed="true">
+    <Position X="7.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\AccountDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.RUB_Account_Decorator" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\AccountDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.EUR_Account_Decorator" Collapsed="true">
+    <Position X="2.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator\AccountDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.AccountCreator" Collapsed="true">
+    <Position X="3.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Factory, Memento, + Observer for Accs\AccountCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.RussianAccount" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory, Memento, + Observer for Accs\AccountCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.UkrainianAccount" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory, Memento, + Observer for Accs\AccountCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.EuropeAccount" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory, Memento, + Observer for Accs\AccountCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.AmericanAccount" Collapsed="true">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory, Memento, + Observer for Accs\AccountCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.BetSaver" Collapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory, Memento, + Observer for Accs\BetSaver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.BetHistory" Collapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Factory, Memento, + Observer for Accs\BetSaver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.iAccount" Collapsed="true">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAAAAAAAAAAAAIIAAAAIAAAAAAAAAQAAAAAgA=</HashCode>
+      <FileName>Factory, Memento, + Observer for Accs\iAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.USD_Account" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory, Memento, + Observer for Accs\iAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.UAH_Account" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory, Memento, + Observer for Accs\iAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.RUB_Account" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory, Memento, + Observer for Accs\iAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.EUR_Account" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory, Memento, + Observer for Accs\iAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.Roulette" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACCAAAAQQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Iterator\IRoulette.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MainApp.RouletteNumerator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Iterator\IRouletteIterator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MainApp.Casino" Collapsed="true">
+    <Position X="10.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAACAAAAAAAAAAAQBAAAAIAJEAAAAAAAAAIAAIA=</HashCode>
+      <FileName>Observer\Casino.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.IObservable" Collapsed="true">
+    <Position X="10.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQBAAAAAAJAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\IObservable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.Wallet" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAYAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Proxy, Prototype\Balance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MainApp.ProxyWallet" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAIAAEAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Proxy, Prototype\Balance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MainApp.Bet" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>State\Bet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.digitBet" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAADAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>State\Bet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.Manque" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>State\Bet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.Passe" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>State\Bet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.Rouge" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>State\Bet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.Noire" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>State\Bet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.Even" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>State\Bet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.Odd" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>State\Bet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.iCasino" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAABAAAQACBAIAAAA=</HashCode>
+      <FileName>Template, Bridge, ChainOfR + Singleton\iCasino.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.Lottery" Collapsed="true">
+    <Position X="10.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAACAAAAAAAAABEAAAAAAEAAAAABAAAAAAAAIAAAQ=</HashCode>
+      <FileName>Template, Bridge, ChainOfR + Singleton\Lottery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.RouletteMachine" Collapsed="true">
+    <Position X="12.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAgAIAAAAAAAAIAEAABAABQAAAAAAAIAAAA=</HashCode>
+      <FileName>Template, Bridge, ChainOfR + Singleton\RouletteMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.Pocket" Collapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAEAAAAAAAAAAAAAAAAAAgABAAAA=</HashCode>
+      <FileName>Pocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainApp.Program" Collapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MainApp.iCommand" Collapsed="true">
+    <Position X="18.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command\iCommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MainApp.IRoulette" Collapsed="true">
+    <Position X="20.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACCAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Iterator\IRoulette.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MainApp.IRouletteIterator" Collapsed="true">
+    <Position X="22" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Iterator\IRouletteIterator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MainApp.Balance" Collapsed="true">
+    <Position X="16.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Proxy, Prototype\Balance.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="MainApp.Currency" Collapsed="true">
+    <Position X="18.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAQCAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Factory, Memento, + Observer for Accs\iAccount.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MainApp.Color" Collapsed="true">
+    <Position X="16.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Pocket.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
